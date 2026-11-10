@@ -1,0 +1,26 @@
+{
+ "name": "htop",
+ "version": "3.5.3",
+ "license": "GPL-2.0+",
+ "homepage": "https://htop.dev",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "htop-3.5.3.tar.xz",
+  "ncurses-6.5.tar.gz"
+ ],
+ "desc": "htop 3.5.3: an interactive process viewer",
+ "file": "htop-3.5.3.tpkg",
+ "size": 320222,
+ "sha256": "8bae20279f57c85e35c929e157d121826bd5b75ce8a074ee5bf10226a3ebb5eb",
+ "unpacked": 717463,
+ "min_build": 616,
+ "depends": [
+  "terminfo"
+ ],
+ "commands": {
+  "htop": "bin/htop"
+ }
+}
